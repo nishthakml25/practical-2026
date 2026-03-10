@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical No. 3</title>
+</head>
+
+<body>
+
+<h1 align="center">Practical No. 3</h1>
+
+<marquee>Welcome to My HTML Webpage</marquee>
+
+<h2>Text Formatting</h2>
+
+<p>This is <b>Bold</b> text.</p>
+<p>This is <i>Italic</i> text.</p>
+<p>This is <u>Underlined</u> text.</p>
+<p>This is <strong>Important</strong> text.</p>
+
+<h2>Lists</h2>
+
+<h3>Ordered List</h3>
+<ol>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ol>
+
+<h3>Unordered List</h3>
+<ul>
+<li>Computer</li>
+<li>Keyboard</li>
+<li>Mouse</li>
+</ul>
+
+<h3>Description List</h3>
+<dl>
+<dt>HTML</dt>
+<dd>Hyper Text Markup Language</dd>
+
+<dt>CSS</dt>
+<dd>Cascading Style Sheets</dd>
+</dl>
+
+<h2>Hyperlinks</h2>
+
+<p>External Link:</p>
+<a href="https://www.google.com">Visit Google</a>
+
+<br><br>
+
+<p>Email Link:</p>
+<a href="mailto:nishtha@gmail.com">Send Email</a>
+
+<br><br>
+
+<p>Internal Link:</p>
+<a href="#image">Go to Image Section</a>
+
+<h2 id="image">Image</h2>
+
+<img src="https://via.placeholder.com/200" alt="Sample Image">
+
+<br><br>
+
+<footer>
+<p>Created by Nishtha Katariya</p>
+</footer>
+
+</body>
+</html>
