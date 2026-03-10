@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tabular Data Webpage</title>
+</head>
+
+<body>
+
+<h1 align="center">Student Record</h1>
+
+<table border="1" align="center" cellpadding="8" cellspacing="0">
+<tr>
+<th>Roll No</th>
+<th>Name</th>
+<th>Branch</th>
+<th>Marks</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Nishtha Katariya</td>
+<td>Computer</td>
+<td>85</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Rahul</td>
+<td>Computer</td>
+<td>78</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Priya</td>
+<td>Computer</td>
+<td>82</td>
+</tr>
+</table>
+
+<br><br>
+
+<h1 align="center">Class Timetable</h1>
+
+<table border="1" align="center" cellpadding="8" cellspacing="0">
+
+<tr>
+<th>Day</th>
+<th>9-10</th>
+<th>10-11</th>
+<th>11-12</th>
+<th>12-1</th>
+</tr>
+
+<tr>
+<td>Monday</td>
+<td>Math</td>
+<td>Computer</td>
+<td>English</td>
+<td>Lab</td>
+</tr>
+
+<tr>
+<td>Tuesday</td>
+<td>Physics</td>
+<td>Computer</td>
+<td>Math</td>
+<td>Lab</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td>English</td>
+<td>Math</td>
+<td>Computer</td>
+<td>Sports</td>
+</tr>
+
+</table>
+
+<br><br>
+
+<h1 align="center">Computer Devices</h1>
+
+<table border="1" align="center" cellpadding="8" cellspacing="0">
+
+<tr>
+<th>Device</th>
+<th>Type</th>
+<th>Function</th>
+</tr>
+
+<tr>
+<td>Keyboard</td>
+<td>Input Device</td>
+<td>Enter data</td>
+</tr>
+
+<tr>
+<td>Monitor</td>
+<td>Output Device</td>
+<td>Display output</td>
+</tr>
+
+<tr>
+<td>Printer</td>
+<td>Output Device</td>
+<td>Print documents</td>
+</tr>
+
+<tr>
+<td>Mouse</td>
+<td>Input Device</td>
+<td>Control pointer</td>
+</tr>
+
+</table>
+
+</body>
+</html>
