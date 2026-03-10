@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Semantic Elements</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Welcome to HTML5 Page</h1>
+    <p>Study of HTML5 Semantic Elements</p>
+</header>
+
+<section>
+    <h2>About HTML5</h2>
+    <p>HTML5 is the latest version of HTML used to create webpages.</p>
+</section>
+
+<section>
+    <h2>Semantic Elements</h2>
+
+    <article>
+        <h3>Header</h3>
+        <p>The header element defines the top section of a webpage.</p>
+    </article>
+
+    <article>
+        <h3>Section</h3>
+        <p>The section element defines a section in a document.</p>
+    </article>
+
+    <article>
+        <h3>Article</h3>
+        <p>The article element defines independent content.</p>
+    </article>
+
+    <article>
+        <h3>Footer</h3>
+        <p>The footer element defines the bottom part of a webpage.</p>
+    </article>
+
+</section>
+
+<footer>
+    <p>Created by: Nishtha Katariya</p>
+</footer>
+
+</body>
+</html>
