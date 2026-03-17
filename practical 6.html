@@ -1,0 +1,166 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Scholarship Registration</title>
+
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 600px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    fieldset {
+        border: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        background: #f9f9f9;
+    }
+
+    legend {
+        font-weight: bold;
+        color: #0077ff;
+        padding: 5px 10px;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        transition: 0.3s;
+    }
+
+    input:focus, select:focus {
+        border-color: #0077ff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0,119,255,0.5);
+    }
+
+    .inline-group {
+        margin-top: 8px;
+    }
+
+    .inline-group label {
+        display: inline-block;
+        margin-right: 15px;
+        font-weight: normal;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background: linear-gradient(to right, #0077ff, #00c6ff);
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: linear-gradient(to right, #005ecb, #0096c7);
+        transform: scale(1.02);
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>🎓 Scholarship Registration Form</h2>
+
+    <form>
+
+        <!-- Personal Details -->
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter phone number">
+
+            <label>Gender</label>
+            <div class="inline-group">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Other</label>
+            </div>
+        </fieldset>
+
+        <!-- Academic Details -->
+        <fieldset>
+            <legend>Academic Details</legend>
+
+            <label>Qualification</label>
+            <select>
+                <option>Select</option>
+                <option>12th Pass</option>
+                <option>Diploma</option>
+                <option>Graduate</option>
+                <option>Postgraduate</option>
+            </select>
+
+            <label>Percentage</label>
+            <input type="number" placeholder="Enter percentage">
+
+            <label>Field of Study</label>
+            <input type="text" placeholder="e.g. Science, Commerce">
+        </fieldset>
+
+        <!-- Scholarship Preferences -->
+        <fieldset>
+            <legend>Scholarship Preferences</legend>
+
+            <label>Scholarship Type</label>
+            <div class="inline-group">
+                <label><input type="radio" name="type"> Merit-based</label>
+                <label><input type="radio" name="type"> Need-based</label>
+            </div>
+
+            <label>Areas of Interest</label>
+            <div class="inline-group">
+                <label><input type="checkbox"> Science</label>
+                <label><input type="checkbox"> Arts</label>
+                <label><input type="checkbox"> Sports</label>
+                <label><input type="checkbox"> Technology</label>
+            </div>
+        </fieldset>
+
+        <button type="submit">Submit Application</button>
+
+    </form>
+</div>
+
+</body>
+</html>
